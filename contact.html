@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+
+<body>
+    <h1><strong>My Contacts</strong></h1>
+    <table cellspacing="10">
+        <tr>
+            <td><h2>Email</h2></td>
+            <td><p>harshveerhky@gmail.com</p></td>
+        </tr>
+        <tr>
+            <td><h2>Phone</h2></td>
+            <td><p>7814796224</p></td>
+        </tr>
+        <tr>
+            <td><h2>Telephone No.</h2></td>
+            <td><p>9914828150</p></td>
+        </tr>
+    </table>
+    <hr size="3px" noshade>
+    <form action="mailto:harshveerhky@gmail.com" method="post" enctype="text/plain">
+        <table cellspacing="5">
+            <caption><big><big><strong>Message Me</strong></big></big></caption>
+            <tr>
+                <td>
+                  <label for="">Your Name: </label>  
+                </td>
+                <td>
+                  <input type="text" name="User Name" id="user_name" placeholder="User Name">  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Enter the date of messaging: </label>
+                </td>
+                <td>
+                   <input type="date" name="Date " id=""> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Email: </label>
+                </td>
+                <td>
+                   <input type="email" placeholder="Email" name="Email "> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Password: </label>
+                </td>
+                <td>
+                    <input type="password" placeholder="Password" name="Password ">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Message: </label>
+                </td>
+                
+                <td>
+                    <textarea name="Message " id="text_area" cols="21" rows="3" placeholder="Enter the Message"></textarea>
+                </td>
+            </tr>
+        </table>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
